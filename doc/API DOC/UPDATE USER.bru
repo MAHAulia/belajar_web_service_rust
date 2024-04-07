@@ -1,0 +1,22 @@
+meta {
+  name: UPDATE USER
+  type: http
+  seq: 5
+}
+
+put {
+  url: http://localhost:8080/user/fbcbac32-c05b-4f63-82fd-cc82ab53e103
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "username": "Inara 2",
+    "email": "inara.2@gmail.com"
+  }
+}

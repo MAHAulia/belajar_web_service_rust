@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "API DOC WEB SERVICE RUST",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

@@ -1,0 +1,18 @@
+meta {
+  name: DELETE USER
+  type: http
+  seq: 6
+}
+
+delete {
+  url: http://localhost:8080/user/bab2d00f-27bc-425f-9f45-1f1873884329
+  body: none
+  auth: none
+}
+
+body:json {
+  {
+    "username": "Inara",
+    "email": "inara@gmail.com"
+  }
+}

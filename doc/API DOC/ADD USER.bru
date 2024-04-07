@@ -1,0 +1,22 @@
+meta {
+  name: ADD USER
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8080/user
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "username": "Coba Lag",
+    "email": "cobalagi@gmail.com"
+  }
+}
