@@ -1,5 +1,5 @@
 # Belajar Web Server With Rush x Inarust
-thanks to [inarust](https://github.com/inarust/inarust) for the boilerplave 🤩
+thanks to [inarust](https://github.com/inarust/inarust) for the boilerplate 🤩
 
 ## How To Use
 1. Copy .env.example to .env
